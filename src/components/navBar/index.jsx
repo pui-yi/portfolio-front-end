@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 import "./styles.scss";
 
 const data = [
-  { label: "HOME", to: "/" },
-  { label: "PROJECTS", to: "/projects" },
-  { label: "CONTACT", to: "/contact" },
+  { label: "HOME", to: "/portfolio-front-end" },
+  { label: "PROJECTS", to: "/portfolio-front-end/projects" },
+  { label: "CONTACT", to: "/portfolio-front-end/contact" },
 ];
 const Navbar = () => {
   const [toggleIcon, setToggleIcon] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <div className="navbar__container">
-          <Link to={"/"} className="navbar__container__logo">
+          <Link to={"/portfolio-front-end"} className="navbar__container__logo">
             <FaHome size={30} />
           </Link>
         </div>

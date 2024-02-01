@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <div className='App__main-page-content'>
         <Routes>
-          <Route index path='/' element={<Home />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route index path='/portfolio-front-end' element={<Home />} />
+          <Route path='/portfolio-front-end/projects' element={<Projects />} />
+          <Route path='/portfolio-front-end/contact' element={<Contact />} />
         </Routes>
       </div>
     </div>
