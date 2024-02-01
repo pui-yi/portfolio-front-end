@@ -6,10 +6,11 @@
     // align-content: center;
     // flex-direction: column;
     padding: 2rem;
-    color: var(--yellow-theme-main-color);
+    color: var(--theme-main-color);
     
     &__text-wrapper{
         // display: flex;
         // justify-content: center;
+        line-height: 2rem;
     }
 }

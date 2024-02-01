@@ -1,6 +1,6 @@
 // /** @format */
 .navbar{
-    background-color: var(--yellow-theme-nav-background-color);
+    background-color: var(--theme-nav-background-color);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
         flex: 1;
 
         &__logo{
-            color: var(--yellow-theme-main-color);
+            color: var(--theme-nav-color);
             cursor: pointer;
         }
 
@@ -42,11 +42,11 @@
 
                 &:hover::after{
                     width: 100%;
-                    background: var(--yellow-theme-main-color);
+                    background: var(--theme-nav-color);
                 }
 
                 &__links{
-                    color: var(--yellow-theme-main-color);
+                    color: var(--theme-nav-color);
                     text-decoration: none;
                     padding: 0.5rem;
                 }
@@ -85,7 +85,7 @@
   .nav-icon{
     display: block;
     cursor: pointer;
-    color: var(--yellow-theme-main-color);
+    color: var(--theme-nav-color);
     padding: 20px;
   }
 }
