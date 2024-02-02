@@ -4,9 +4,11 @@ import Home from './containers/home';
 import Contact from './containers/contact';
 import Projects from './containers/projects';
 import Navbar from './components/navBar';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 ReactGA.initialize('G-PYCENQ57V2');
+
+
 function App() {
   return (
     <div className="App">
